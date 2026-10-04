@@ -15,5 +15,5 @@ jobs:
       - run: gradle assembleDebug
       - uses: actions/upload-artifact@v4
         with:
-          name: Podolsk-Launcher-APK
+          name: CRMP-Mobile-APK
           path: app/build/outputs/apk/debug/app-debug.apk
